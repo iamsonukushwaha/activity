@@ -23,16 +23,16 @@ feednami.load(url, function (result) {
            
 
             let li = document.createElement('li');
-            let para = document.createElement('p');
+           
 
             //add HTML content to list items
             li.innerHTML = `<h4><a href="${entry.link}">${entry.title}</a></h4>`;
-            para.innerHTML = entry.summary;
+            
 
 
             //append HTML content to list 
             textarea.appendChild(li);
-            textarea.appendChild(para);
+            
         }
     }
 })
