@@ -26,7 +26,7 @@ feednami.load(url, function (result) {
            
 
             //add HTML content to list items
-            li.innerHTML = `<h4><a href="${entry.link}">${entry.title}</a></h4>`;
+            li.innerHTML = `<h4><a href="${entry.link}"> ${entry.title}</a></h4>`;
             
 
 
