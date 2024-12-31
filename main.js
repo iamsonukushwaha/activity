@@ -5,7 +5,7 @@ const textarea = document.querySelector('#feed-textarea > ul');
 const date = new Date();
 document.querySelector('#date').innerHTML = date.toDateString();
 
-var url = 'https://github.com/flyingsonu122.atom'
+var url = 'https://github.com/iamsonukushwaha.atom'
 
 
 
